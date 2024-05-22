@@ -1,0 +1,45 @@
+#bm-form {
+  padding: 3rem 0;
+  margin-top: 3rem;
+  background: #eff1f1;
+}
+#bm-form h3 {
+  font-weight: 600;
+}
+
+/* FORMULARIO INPUTS */
+.bm-form-wrapper {
+  max-width: 500px;
+  border-radius: 12px;
+  border: 2px solid #c2c2c2;
+  background: #fff;
+  padding: 2rem 3rem;
+}
+.bm-input {
+  display: block;
+  width: 100%;
+  padding: 0.6rem 0;
+  margin-top: 1rem;
+  border: 0;
+  outline: 0;
+  border-bottom: 1px solid #c6c6c6;
+}
+.bm-input:focus-visible {
+    border-bottom: 1px solid var(--color-navy-main);
+  }
+.bm-input[type="checkbox"] {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  padding: 0.6rem 0;
+  margin-top: 2rem;
+  margin-right: 0.4rem;
+  border: 0;
+  outline: 0;
+}
+.bm-label-tyc {
+  font-size: 14px;
+}
+.bm-label-tyc a {
+  text-decoration: underline;
+}

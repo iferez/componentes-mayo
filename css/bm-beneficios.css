@@ -1,0 +1,111 @@
+ /* CARD BENEFICIO CHICO - SLIDER */
+ .bm-card_beneficio {
+    width: auto;
+    min-height: 196px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0px 3px 4px 2px rgba(17, 17, 17, 0.15), 0px 2px 4px 0px rgba(68, 71, 72, 0.15);
+    padding: 16px;
+    margin: 16px 0px 16px 16px;
+}
+
+.bm-card_beneficio .bm-card_beneficio_img {
+    width: auto;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bm-card_beneficio h5 {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Public Sans";
+    line-height: 22px;
+    letter-spacing: 0.036px;
+    margin: 12px 0px;
+}
+
+/* CARD BENEFICIO GRANDE - DESTACADO */
+.bm-card_beneficio_destacado {
+    width: 100%;
+    min-height: 464px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: #F8FAFA;
+    box-shadow: 0px 3px 4px 2px rgba(17, 17, 17, 0.15), 0px 2px 4px 0px rgba(68, 71, 72, 0.15);
+    padding: 32px;
+}
+
+.bm-card_beneficio_destacado .bm-card_beneficio_img {
+    width: 196px;
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bm-card_beneficio_destacado h5 {
+    color: #053575;
+    font-family: "Public Sans";
+    font-size: 24px;
+    font-weight: 700;
+    margin: 12px 0px 24px 0px;
+}
+
+.bm-card_beneficio_destacado p {
+    text-align: start;
+    margin: 16px 0px;
+}
+
+@media (min-width: 992px) {
+    .container_beneficio {
+        padding: 0px 12px;
+        gap: 32px;
+        justify-content: end;
+    }
+
+    .bm-card_beneficio {
+        margin: 0px;
+    }
+
+    .bm-card_beneficio_destacado {
+        height: 100%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container_beneficios {
+        max-width: 1140px;
+    }
+
+    .bm-card_beneficio {
+        /* width: 347px; */
+        width: 328px;
+        margin: 0px;
+    }
+
+    .bm-card_beneficio .bm-card_beneficio_img {
+        width: 140px;
+    }
+
+    .bm-card_beneficio_destacado {
+       /*  width: 350px; */
+       width: 328px;
+        padding: 16px 32px;
+    }
+
+    .bm-card_beneficio_destacado h5 {
+        font-size: 28px;
+    }
+
+}

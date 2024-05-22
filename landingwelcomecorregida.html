@@ -1,0 +1,658 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Página de bienvenida a Banco Macro">
+    <meta name="keywords" content="palabra1, palabra2, palabra3">
+    <title>Bienvenido a Banco Macro</title>
+
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <!--     <link rel="stylesheet" href="https://cloud.productos.bancomacro.com.ar/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cloud.productos.bancomacro.com.ar/slick.css">
+    <link rel="stylesheet" href="https://cloud.productos.bancomacro.com.ar/aos.css">
+    <link rel="stylesheet" href="https://cloud.productos.bancomacro.com.ar/ui-global.css">
+    <link rel="stylesheet" href="https://cloud.productos.bancomacro.com.ar/ui-header-footer-off-nav.css">
+    <link rel="stylesheet" href="https://cloud.productos.bancomacro.com.ar/bm-banner.css">
+    <link rel="stylesheet" href="https://cloud.productos.bancomacro.com.ar/bm-cards.css">
+    <link rel="stylesheet" href="https://cloud.productos.bancomacro.com.ar/bm-accordion.css">
+    <link rel="stylesheet" href="https://cloud.productos.bancomacro.com.ar/bm-tabs.css">
+    <link rel="stylesheet" href="https://cloud.productos.bancomacro.com.ar/bm-carrousel.css"> -->
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="icon" href="https://macro.com.ar/imagen/favicon.ico" type="image/x-icon">
+
+
+    <!-- ICONOS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <img class="img-head-desktop" src="https://image.productos.bancomacro.com.ar/lib/fe3111737164047f771377/m/1/858131d4-9bff-47c6-8211-dfbda337a982.png" alt="Logo Banco Macro">
+        </div>
+    </header>
+    <main>
+        <!-- SECCIÓN DE BANNER - TEXTO E IMAGEN -->
+        <section id="bm-banner">
+            <div class="container">
+                <div class="row align-items-center">
+                    <article class="col-lg-8 bm-banner-first" data-aos="zoom-in">
+                        <div class="welcome-kit">
+                            <h3 class="fw-bold mb-0">Te damos la bienvenida</h3>
+                            <h1 class="fw-bold mb-4">¡Ya empezaste a pensar en grande!</h1>
+                            <h4>Sólo necesitás tu Tarjeta de Débito Macro y tu clave <br class="wk-br"> PIN de 4
+                                digitos para comenzar a operar.
+                            </h4>
+
+
+                            <div class="d-flex flex-column flex-sm-row">
+                                <a href="#bm-pin" class="btn btn-navy-main color-white ">Generar clave PIN</a>
+                                <!--  <a href="#bm-pasos"
+                                    class="btn btn-bm-white color-blue fw-bold mt-3 mt-sm-0 ms-sm-2 ms-xl-4">Recibí el
+                                    PIN</a> -->
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-lg-4 bm-banner-second">
+                        <img src="https://image.productos.bancomacro.com.ar/lib/fe3111737164047f771377/m/1/152e5fc7-e631-4452-9b5d-9a9c1fe5f780.png"
+                            alt="Persona beneficiada" data-aos="fade-up-right">
+                        <div class="bm-pild-social" data-aos="fade-up">
+                            <img src="https://image.productos.bancomacro.com.ar/lib/fe3111737164047f771377/m/1/30fcf78a-0c36-40e3-b207-7fac52aab7b2.png"
+                                alt="Pensa en Macro">
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="bm-banner-bg-shape-lb" data-aos="fade-left"></div>
+        </section>
+
+
+        <!-- CONTENEDOR DE FONDO PARA SHAPE ROSA -->
+
+        <!-- SECCIÓN OPERAR CON O SIN PIN -->
+        <section id="bm-pin" class="py-3 py-lg-5" data-aos="fade-up">
+            <div class="container">
+                <h3 class="text-center color-navy-main mt-5 mb-6">¿Cómo genero mi clave PIN?
+                    <br class="d-none d-xl-block">
+                </h3>
+
+                <article class="row justify-content-center">
+                    <div class="col-md-6">
+                        <div class="bm-card-lg">
+                            <div class="bm-card-lg_header bg-navy-main text-center text-white">
+                                <h5>Desde BancoChat</h5>
+                            </div>
+                            <div class="bm-card-lg_body">
+                                <p>Generar tu clave PIN desde Whatsapp de forma simple, fácil y rápida.
+                                    Hace clic en el enlace y serás dirigido a Whatsapp.</p>
+                            </div>
+                            <div class="bm-card-lg_footer">
+                                <a href="https://api.whatsapp.com/send/?phone=5491131101338&text=Quiero+generar+una+clave+PIN&type=phone_number&app_absent=0"
+                                    class="btn btn-navy-main color-white ">Generar clave PIN</a>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mt-4 mt-md-0">
+                        <div class="bm-card-lg">
+                            <div class="bm-card-lg_header bg-navy-main text-center text-white">
+                                <h5>Desde App Macro o Banca Internet</h5>
+                            </div>
+                            <div class="bm-card-lg_body">
+                                <p> Ingresá en la opción Gestión de claves -> Blanqueo de PIN de Tarjeta de Débito.
+                                    Recordá tener tus claves y token de seguridad activos. </p>
+                            </div>
+                            <div class="bm-card-lg_footer">
+                                <a href="https://www.macro.com.ar/bancainternet/"
+                                    class="btn btn-navy-main color-white ">Ir a Banca Internet</a>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        </div>
+
+
+
+        <div class="bm-bg-shape_left">
+            <!-- SECCIÓN TABS -->
+            <section class="py-3 py-lg-5">
+                <div class="container">
+                    <h3 class="text-center color-navy-main my-5" data-aos="fade-up-right">Elegí tu mejor opción, para
+                        operar como quieras. <br> </h3>
+
+                    <article class="bm-tabs nav nav-pills d-flex flex-column flex-sm-row justify-content-center mb-5"
+                        data-aos="fade-up">
+                        <button class="nav-link active" id="pills-banco-chat-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-banco-chat" type="button" role="tab" aria-controls="pills-banco-chat"
+                            aria-selected="true">BancoChat</button>
+
+                        <button class="nav-link mt-3 mt-sm-0 ms-md-2" id="pills-app-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-app" type="button" role="tab" aria-controls="pills-app"
+                            aria-selected="false">App Macro</button>
+                    </article>
+
+                    <article class="tab-content pt-0 pt-md-4" id="pills-tabContent" data-aos="fade-up">
+                        <!-- TAB ABRI BANCO CHAT -->
+                        <div class="tab-pane fade show active" id="pills-banco-chat" role="tabpanel"
+                            aria-labelledby="pills-banco-chat-tab" tabindex="0">
+                            <div class="row bm-imagen-texto">
+                                <div class="col-md-5 text-center text-md-end">
+                                    <img src="https://image.productos.bancomacro.com.ar/lib/fe3111737164047f771377/m/1/a0873f1d-7794-48b3-b3d7-0e2820f5922f.png"
+                                        alt="Banco chat">
+                                </div>
+                                <div class="offset-md-1 col-md-6 mt-3 mt-md-0">
+                                    <h3 class="mb-4">Llegó <br> <span>BancoChat</span></h3>
+                                    <ul>
+                                        <li>Somos el primer banco que te trae una nueva forma de <strong>operar
+                                                desde WhatsApp.</strong>
+                                        </li>
+                                        <li>
+                                            Podés operar y dirigir todo por chat. <strong>Fácil, rápido y
+                                                seguro.</strong>
+                                        </li>
+                                        <li>Nuestro objetivo es llevar el banco donde está la gente y
+                                            ser
+                                            parte del día a día de los argentinos.
+                                        </li>
+                                    </ul>
+                                    <div class="mt-5">
+                                        <a data-utm="true"
+                                            href=" https://api.whatsapp.com/send/?phone=5491131101338&text=%C2%A1Quiero+usar+BancoChat%21&type=phone_number&app_absent=0"
+                                            class="btn btn-navy-main">Chatear ahora</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- TAB APP MACRO -->
+                        <div class="tab-pane fade" id="pills-app" role="tabpanel" aria-labelledby="pills-app-tab"
+                            tabindex="0">
+                            <div class="row bm-imagen-texto">
+                                <div class="col-md-5 text-center text-md-end">
+                                    <img src="https://image.productos.bancomacro.com.ar/lib/fe3111737164047f771377/m/1/36582071-4246-4dcf-948c-5f5dd9afedc2.png"
+                                        alt="App Macro">
+                                </div>
+                                <div class="offset-md-1 col-md-6 mt-3 mt-md-0">
+                                    <h3 class="mb-4">Descargá<br> <span>App Macro</span></h3>
+                                    <ul>
+                                        <li>Descargá la aplicación en tu celular para realizar
+                                            consultas y transacciones de manera simple, cómoda y segura
+                                            las 24hs, los 365 días del año.
+                                            <br><br>Hacé clic en los botones siguientes según
+                                            el sistema operativo de tu teléfono y seleccioná la
+                                            aplicación "Macro"
+                                        </li>
+                                    </ul>
+
+                                    <div
+                                        class="mt-5 d-flex flex-column justify-content-center flex-xl-row justify-content-xl-start">
+                                        <a data-utm="true" href="https://play.google.com/store/apps/details?id=ar.macro"
+                                            class="btn btn-bm-white"><i class="bi bi-google-play"></i> Google
+                                            Play</a>
+                                        <a data-utm="true"
+                                            href="https://apps.apple.com/app/apple-store/id1173611617?pt=2087826&ct=HaceteCliente-appmacro&mt=8"
+                                            class="btn btn-bm-white mt-3 mt-xl-0 ms-xl-4"><i class="bi bi-apple"></i>
+                                            Apple
+                                            Store</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+
+
+            <!-- SECCIÓN CARDS DE PROMOCIONES -->
+            <!-- STYLE SOLO PARA PRUEBAS -->
+            <style>
+                .bm-card-md_header {
+                    min-height: 66px !important;
+                    max-height: 66px !important;
+                    display: flex !important;
+                    justify-content: center !important;
+                    align-items: center !important;
+                    margin-top: auto !important;
+                    border-radius: 12px 12px 0px 0px !important;
+                }
+
+                .bm-card-md_header,
+                .bm-card-md_body {
+                    padding: 12px !important;
+                    flex-grow: 1 !important;
+                }
+            </style>
+            <section id="bm-promo">
+                <div class="container-lg">
+                    <h3 class="text-center mb-6" data-aos="fade-up-right">Beneficios pensados para vos</h3>
+                    <article id="slider-promo" class="wrapper-cards-between">
+                        <div class="bm-card-md" data-aos="fade-up-right">
+                            <div class="bm-card-md_header bg-blue">
+                                <img src="https://image.productos.bancomacro.com.ar/lib/fe3111737164047f771377/m/1/c76f5a10-dcd2-43b8-96fa-0dda6406d322.png"
+                                    alt="Logo MODO">
+                            </div>
+                            <div class="bm-card-md_body">
+                                <h5>Hasta <br><span>20%</span><br> de ahorro</h5>
+                            </div>
+                        </div>
+
+                        <div class="bm-card-md" data-aos="fade-up-right" data-aos-delay="100">
+                            <div class="bm-card-md_header bg-blue">
+                                <img src="https://image.productos.bancomacro.com.ar/lib/fe3111737164047f771377/m/1/d38b0952-ded2-485b-87ff-3b835fad5468.png"
+                                    alt="Logo PedidosYa">
+                            </div>
+                            <div class="bm-card-md_body">
+                                <h5>Hasta <br><span>35%</span><br> de ahorro</h5>
+                            </div>
+                        </div>
+
+                        <div class="bm-card-md" data-aos="fade-up-right" data-aos-delay="200">
+                            <div class="bm-card-md_header bg-blue">
+                                <span style="font-size: 18px; color: #fff;">Ecobici</span>
+                            </div>
+                            <div class="bm-card-md_body">
+                                <h5><span>50%</span><br> de ahorro <br> en planes mensuales</h5>
+                            </div>
+                        </div>
+
+                        <div class="bm-card-md" data-aos="fade-up-right" data-aos-delay="300">
+                            <div class="bm-card-md_header bg-blue">
+                                <span><img
+                                        src="https://image.productos.bancomacro.com.ar/lib/fe3111737164047f771377/m/1/fedbe444-112e-469e-8363-285498df4f95.png"
+                                        alt="Logo Bresh"></span>
+                            </div>
+                            <div class="bm-card-md_body">
+                                <h5>Hasta <br><span>50%</span><br> de ahorro <br>en entradas</h5>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+
+            <!-- CONTENEDOR DE FONDO PARA SHAPE AZUL -->
+            <div class="bm-bg-shape_right">
+
+                <!-- SECCIÓN CARDS DE PASOS SUMARTE A MACRO 
+            <section id="bm-pasos">
+                <div class="container-xl" data-aos="fade-up">
+                    <h3 class="text-center mb-6">Si recibiste el pin en tu casa seguí estos pasos</h3>
+                    <article id="slider-pasos" class="wrapper-cards-between">
+                        <div class="bm-card-sm">
+                            <div class="bm-card-sm_header">
+                                <img src="https://image.productos.bancomacro.com.ar/lib/fe3111737164047f771377/m/1/815a5495-2937-4b42-8f8b-2dd70bfd2be7.png"
+                                    alt="Definir img">
+                                <h5>Paso 1</h5>
+                            </div>
+                            <div class="bm-card-sm_body">
+                                <p>Acercate a un cajero automático de la red Banelco
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="bm-card-sm">
+                            <div class="bm-card-sm_header">
+                                <img src="https://image.productos.bancomacro.com.ar/lib/fe3111737164047f771377/m/1/815a5495-2937-4b42-8f8b-2dd70bfd2be7.png"
+                                    alt="Definir img">
+                                <h5>Paso 2</h5>
+                            </div>
+                            <div class="bm-card-sm_body">
+                                <p>Ingresá la clave (PIN) en la pantalla</p>
+                            </div>
+                        </div>
+
+                        <div class="bm-card-sm">
+                            <div class="bm-card-sm_header">
+                                <img src="https://image.productos.bancomacro.com.ar/lib/fe3111737164047f771377/m/1/815a5495-2937-4b42-8f8b-2dd70bfd2be7.png"
+                                    alt="Definir img">
+                                <h5>Paso 3</h5>
+                            </div>
+                            <div class="bm-card-sm_body">
+                                <p>Elegí la operación que querés realizar</p>
+                            </div>
+                        </div>
+
+                        <div class="bm-card-sm">
+                            <div class="bm-card-sm_header">
+                                <img src="https://image.productos.bancomacro.com.ar/lib/fe3111737164047f771377/m/1/815a5495-2937-4b42-8f8b-2dd70bfd2be7.png"
+                                    alt="Definir img">
+                                <h5>Paso 4</h5>
+                            </div>
+                            <div class="bm-card-sm_body">
+                                <p>Seguí las intrucciones y empezá a operar</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section> -->
+
+                <!-- SECCIÓN PREGUNTAS FRECUENTES -->
+                <section id="bm-preguntas">
+                    <div class="container">
+                        <h3 class="mb-4 mb-lg-6">Preguntas frecuentes</h3>
+                        <article class="accordion" id="accordion-preguntas">
+                            <div class="accordion-item">
+                                <h6 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                        ¿Cómo comienzo a operar con mi Tarjeta de Débito?
+                                    </button>
+                                </h6>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    data-bs-parent="#accordion-preguntas">
+                                    <div class="accordion-body">
+                                        <p>Solo necesitas tu Tarjeta de Débito y tu Clave PIN numérica de 4 dígitos
+
+                                            En caso de que sea tu primera Tarjeta de Débito generá tu clave PIN a través
+                                            de
+                                            Banco Chat o Banca Internet
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h6 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseeigth" aria-expanded="false"
+                                        aria-controls="collapseeigth">
+                                        ¿Necesito activar mi Tarjeta de Débito para realizar una compra?
+                                    </button>
+                                </h6>
+                                <div id="collapseeigth" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordion-preguntas">
+                                    <div class="accordion-body">
+                                        <p>
+
+                                        <p>No, tu Tarjeta de Débito Macro esta lista para usar</p>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h6 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapsenine" aria-expanded="false"
+                                        aria-controls="collapsenine">
+                                        Necesito efectivo, pero estoy lejos de un cajero automatico. ¿Que puedo hacer?
+                                    </button>
+                                </h6>
+                                <div id="collapsenine" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordion-preguntas">
+                                    <div class="accordion-body">
+                                        <p>
+
+                                        <p>Con extracash podés retirar efectivo desde tu cuenta en cualquier comercio
+                                            adherido. pagá con tu Tarjeta de Debito Visa Macro y solicitá en el momento
+                                            el dinero que necesitás.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h6 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        ¿Cómo operan las Tarjetas de Débito vinculadas a Cajas de Ahorro para
+                                        compras y extracciones en el exterior?
+                                    </button>
+                                </h6>
+                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordion-preguntas">
+                                    <div class="accordion-body">
+                                        <p>
+
+                                        <p><strong>¿Cómo operan las Tarjetas de Débito vinculadas a Caja de ahorros
+                                                en dólares?</strong><br>
+                                            Si tu Tarjeta de Débito está vinculada a la Caja de Ahorro en dólares
+                                            como “Cuenta Preferida”,
+                                            todas las transacciones que realices en el exterior con tu Tarjeta de
+                                            Débito serán debitadas de tu Caja de Ahorro en dólares.</p>
+
+                                        <p><strong>¿Cómo operan las Tarjetas de Débito vinculadas a Caja de Ahorros
+                                                en pesos?</strong><br>
+                                            Si tu Tarjeta de Débito está vinculada a la Caja de Ahorro en pesos como
+                                            “Cuenta Preferida”,
+                                            todas las transacciones que realices en el exterior con tu Tarjeta de
+                                            Débito serán debitadas de tu Caja de Ahorro en pesos, se aplicarán los
+                                            impuestos y percepciones vigentes.</p>
+
+                                        <p><strong>Extracciones en el exterior</strong><br>
+                                            Podrás realizar extracciones en moneda extranjera en el exterior siempre
+                                            y cuando la cuenta seleccionada haya sido la de dólares.</p>
+
+
+                                        <p><strong>¿Cómo cambio la vinculación de mi Tarjeta de Débito a mi Caja de
+                                                Ahorro en pesos o dólares?</strong><br>
+                                            Podrás marcar la condición de preferencia de tus cuentas, utilizando
+                                            Banca Internet o App Macro.</p>
+
+                                        <ol>
+                                            <li>Ingresá a Banca Internet.</li>
+                                            <li>Seleccioná la opción cuenta para el exterior.</li>
+                                            <li>Desplegá la cuenta en la solapa superior.</li>
+                                            <li>Marcá la cuenta que deseas que sea de Preferencia y seleccionar
+                                                modificar</li>
+                                            <li>Por último, confirma la operación.</li>
+                                        </ol>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="accordion-item">
+                                <h6 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapsefive" aria-expanded="false"
+                                        aria-controls="collapsefive">
+                                        Si tenés una tarjeta contactless, te contamos qué es
+                                    </button>
+                                </h6>
+                                <div id="collapsefive" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordion-preguntas">
+                                    <div class="accordion-body">
+                                        <p>
+
+                                            Estas tarjetas cuentan con una nueva tecnología que aporta comodidad
+                                            para realizar todo tipo de compras. Solo tenés que acercar tu
+                                            tarjeta a una terminal habilitada. Es simple, rápido y seguro.
+
+                                        <p><strong>¿Cómo me doy cuenta si tengo esta tarjeta?</strong><br>
+                                            Las tarjetas con tecnología Contactless se pueden identificar
+                                            fácilmente por su símbolo que se encuentra al frente de tu tarjeta.
+                                        </p>
+
+                                        <p><strong>¿Qué pasa si el comercio donde voy no tiene esta
+                                                tecnología?</strong><br>
+                                            No te preocupes, la tarjeta que tenés tiene la tecnología de chip y
+                                            la de contactless, con lo cual podés seguir usándola como lo hacés
+                                            habitualmente.</p>
+
+                                        <p><strong> ¿Cuáles son los beneficios de esta tarjeta?</strong><br>
+                                        <ol>
+                                            <li>Rapidez: acelera el proceso de pago en línea de cajas. No es
+                                                necesario firmar el comprobante ni exhibir DNI en compras de
+                                                bajo monto.(*)</li>
+                                            <li>Simpleza: una forma de pago ágil que mejora tu experiencia de
+                                                compra.</li>
+                                            <li>Seguridad: te brinda confianza en tus operaciones.</li>
+                                        </ol>
+
+
+                                        <p><strong>¿Cómo es el proceso de pago?</strong><br>
+                                        <ul>
+                                            <li>El comercio te solicitará que acerques tu tarjeta a la pantalla
+                                                de la terminal y la sostengas unos segundos para realizar el
+                                                pago.</li>
+                                            <li>Esperá la confirmación de la transacción y… ¡listo!</li>
+                                        </ul>
+                                        </p>
+
+
+                                        <p><strong>¿Cómo reconozco un comercio que me permita pagar con
+                                                contactless?</strong><br>
+                                            Los comercios donde podés pagar con contactless estarán señalizados.
+                                        </p>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h6 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+                                        Medidas de seguridad
+                                    </button>
+                                </h6>
+                                <div id="collapsesix" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordion-preguntas">
+                                    <div class="accordion-body">
+                                        <p>
+
+                                        <p>Seguro de robo en cajeros automáticos. Consultá en tu sucursal
+                                            por esta medida de protección adicional.</p>
+
+                                        <p>Tarjeta retenida. Si tu tarjeta de débito Macro queda retenida en
+                                            el cajero automático, denuncialo de inmediato al Centro de
+                                            Contacto Banelco (5411) 4320-2500.</p>
+
+                                        <p>Privacidad. No aceptes ayuda de personas desconocidas. Nunca
+                                            reveles tu Clave de Identificación Personal (PIN) ni la digites
+                                            frente a otros.</p>
+
+                                        <p>Tarjeta inhabilitada. En caso de que tu tarjeta de débito Visa
+                                            Macro sea inhabilitada por el cajero automático, guardala y
+                                            dirigite a la sucursal más cercana del Banco.</p>
+
+                                        <p>No introduzca su tarjeta si el cajero está fuera de servicio.<br>
+                                            Recuerde retirar su tarjeta una vez finalizada la operación.<br>
+                                            No exponga la tarjeta a fuentes magnéticas o de calor para no
+                                            dañarla.</p>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h6 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseseven" aria-expanded="false"
+                                        aria-controls="collapseseven">
+                                        Teléfonos útiles
+                                    </button>
+                                </h6>
+                                <div id="collapseseven" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordion-preguntas">
+                                    <div class="accordion-body">
+                                        <p>
+
+                                        <p>Centro de Atención Telefónica: 0810-555-2355</p>
+
+                                        <p>Robo, hurto o extravío: (5411) 4320-2500 (por cobro revertido
+                                            desde el exterior).</p>
+
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- SECCIÓN LEGALES -->
+                        <hr class="mt-6 mb-4">
+                        <article>
+                            <a class="link-collapse text-center mb-5" data-bs-toggle="collapse" href="#collapse-tyc"
+                                role="button" aria-expanded="false" aria-controls="collapse-tyc">
+                                Ver términos y condiciones legales
+                            </a>
+
+                            <div class="collapse" id="collapse-tyc">
+                                <p>Cartera de consumo. Sujeto a condiciones de contratación de Banco Macro S.A. CUIT
+                                    30-50001008-4, Av. Eduardo Madero N° 1182, CABA. Imagen modificada digitalmente.
+                                    Aplica a consumo de tipo personal/familiar. Ver condiciones de los beneficios, topes
+                                    de devolución y más en www.macro.com.ar o al 0810-555-2355.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+            </div>
+
+
+            <!-- SECCIÓN BANNER CARRUSEL -->
+            <section class="py-3 py-lg-5">
+                <div class="container">
+                    <div id="carrusel-macro" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <article class="row">
+                                    <div class="col-md-5 d-flex justify-content-center">
+                                        <img src="https://image.productos.bancomacro.com.ar/lib/fe3111737164047f771377/m/1/d7f144ef-4630-4376-8420-96176d2dcbcb.jpg"
+                                            class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="col-md-7 carousel-info">
+                                        <h4>Pedí tu seguro para cajeros automáticos</h4>
+                                        <p>La tranquilidad de estar protegido antes y después de ir al cajero automático
+                                        </p>
+                                        <a data-utm="true" href="https://www.macro.com.ar/personas/seguros/cajeros"
+                                            class="btn btn-navy-main mt-4">Más información</a>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <button class="scroll-to-top" onclick="scrollToTop()">&#8593;</button>
+
+
+    </main>
+    <footer>
+        <img src="https://image.productos.bancomacro.com.ar/lib/fe3111737164047f771377/m/1/858131d4-9bff-47c6-8211-dfbda337a982.png"
+            alt="Logo Banco Macro">
+    </footer>
+
+    <!-- Bootstrap Bundle -->
+    <script src="https://cloud.productos.bancomacro.com.ar/bootstrap.bundle.min.js"></script>
+    <!-- Slider JS JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cloud.productos.bancomacro.com.ar/slick.min.js"></script>
+    <script src="https://cloud.productos.bancomacro.com.ar/sliders.js"></script>
+    <!-- Animaciones CSS JS -->
+    <script src="https://cloud.productos.bancomacro.com.ar/aos.js"></script>
+    <!-- SCROLL FIXED HEADER -->
+    <!-- <script src="https://cloud.productos.bancomacro.com.ar/scroll-fix.js"></script> -->
+    <script src="js/scroll-fix.js"></script>
+
+    <!-- UTM LOGICA -->
+    <script src="https://cloud.productos.bancomacro.com.ar/utm.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const pild = document.querySelector('.bm-pild-social');
+            function handleResize() {
+                if (window.innerWidth < 996) {
+                    pild.removeAttribute('data-aos');
+                }
+            }
+            handleResize();
+            AOS.init();
+
+        });
+    </script>
+
+</body>
+
+</html>
